@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: 111111
+#    sql-script-encoding: UTF-8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
